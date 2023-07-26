@@ -10,7 +10,10 @@ enum RepeatInterval {
   daily,
 
   /// Weekly interval.
-  weekly
+  weekly,
+
+  /// An interval for every 20 minutes.
+  everyTwentyMinutes
 }
 
 /// Details of a pending notification that has not been delivered.

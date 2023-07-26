@@ -10,8 +10,16 @@ dependencies:
   clock: ^1.1.0
   flutter:
     sdk: flutter
-  flutter_local_notifications_linux: ^4.0.0
-  flutter_local_notifications_platform_interface: ^7.0.0
+  flutter_local_notifications_linux:
+    git:
+      url: git@github.com:danger-ahead/flutter_local_notifications.git
+      ref: sunetra_eye_care_patch
+      path: flutter_local_notifications_linux
+  flutter_local_notifications_platform_interface:
+    git:
+      url: git@github.com:danger-ahead/flutter_local_notifications.git
+      ref: sunetra_eye_care_patch
+      path: flutter_local_notifications_platform_interface
   timezone: ^0.9.0
 
 dev_dependencies:
